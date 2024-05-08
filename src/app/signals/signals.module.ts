@@ -10,6 +10,7 @@ import { RouterModule } from '@angular/router';
 import { SideMenuComponent } from './components/side-menu/side-menu.component';
 
 
+
 @NgModule({
   declarations: [
     SignalsLayoutComponent,
@@ -21,7 +22,7 @@ import { SideMenuComponent } from './components/side-menu/side-menu.component';
   imports: [
     CommonModule,
     SignalsRoutingModule,
-    RouterModule
+    RouterModule,
   ]
 })
 export class SignalsModule { }
